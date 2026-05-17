@@ -1,7 +1,5 @@
 # 🛡️ Phishing Awareness Training
 
-### CodeAlpha Cyber Security Internship — Task 2
-
 An interactive web-based training module that educates users about phishing attacks, social engineering tactics, and online safety best practices. Features real-world examples and an interactive quiz.
 
 ---
@@ -84,11 +82,11 @@ This module is created for **educational purposes** only. All phishing examples 
 
 ## 👤 Author
 
-**Faraz Aamir** — CodeAlpha Cyber Security Intern
+**Faraz Aamir**
 
 ---
 
 ## 📄 License
 
-This project is for educational purposes under the CodeAlpha internship program.
+This project is for educational purposes.
 # Phishing_Awareness_Module
