@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Phishing Awareness Training - Learn to identify and protect against phishing attacks. By Faraz Aamir.">
+    <title>Phishing Awareness Training | PhishGuard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ═══════════ NAVIGATION ═══════════ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">🛡️</span>
+                <span class="logo-text">PhishGuard</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#what-is">What is Phishing</a></li>
+                <li><a href="#types">Attack Types</a></li>
+                <li><a href="#examples">Real Examples</a></li>
+                <li><a href="#tips">Stay Safe</a></li>
+                <li><a href="#quiz" class="nav-cta">Take Quiz</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ═══════════ HERO SECTION ═══════════ -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-effects">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">🔒 Cyber Security Awareness</div>
+            <h1 class="hero-title">
+                Don't Take the <span class="gradient-text">Bait</span>
+            </h1>
+            <p class="hero-subtitle">
+                Learn to identify, prevent, and respond to phishing attacks.
+                Protect yourself and your organization from cyber threats.
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="3400000000">0</span>
+                    <span class="stat-label">Phishing Emails Sent Daily</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="36">0</span>
+                    <span class="stat-label">% of Breaches Involve Phishing</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="4900000">0</span>
+                    <span class="stat-label">Avg. Cost per Phishing Attack ($)</span>
+                </div>
+            </div>
+            <div class="hero-actions">
+                <a href="#what-is" class="btn btn-primary">Start Learning</a>
+                <a href="#quiz" class="btn btn-secondary">Take the Quiz</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- ═══════════ WHAT IS PHISHING ═══════════ -->
+    <section class="section" id="what-is">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Understanding the Threat</span>
+                <h2 class="section-title">What is <span class="gradient-text">Phishing?</span></h2>
+                <p class="section-desc">Phishing is a type of social engineering attack where cybercriminals disguise
+                    themselves as trustworthy entities to steal sensitive information.</p>
+            </div>
+            <div class="info-grid">
+                <div class="info-card" data-aos="fade-up">
+                    <div class="info-icon">🎣</div>
+                    <h3>The Concept</h3>
+                    <p>Attackers "fish" for victims by sending fraudulent messages designed to trick people into
+                        revealing personal information like passwords, credit card numbers, or social security numbers.
+                    </p>
+                </div>
+                <div class="info-card" data-aos="fade-up" data-delay="100">
+                    <div class="info-icon">📧</div>
+                    <h3>How It Works</h3>
+                    <p>A phishing attack typically begins with a fake email, text message, or website that mimics a
+                        legitimate organization. The attacker creates urgency to pressure victims into acting quickly
+                        without thinking.</p>
+                </div>
+                <div class="info-card" data-aos="fade-up" data-delay="200">
+                    <div class="info-icon">🎯</div>
+                    <h3>Who's Targeted</h3>
+                    <p>Everyone is a potential target — from individual users to large corporations. Attackers often
+                        target employees with access to financial systems or sensitive data.</p>
+                </div>
+                <div class="info-card" data-aos="fade-up" data-delay="300">
+                    <div class="info-icon">💰</div>
+                    <h3>The Impact</h3>
+                    <p>Phishing can lead to identity theft, financial loss, data breaches, ransomware infections, and
+                        reputational damage to organizations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ TYPES OF PHISHING ═══════════ -->
+    <section class="section section-dark" id="types">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Know Your Enemy</span>
+                <h2 class="section-title">Types of <span class="gradient-text">Phishing Attacks</span></h2>
+                <p class="section-desc">Phishing comes in many forms. Understanding each type helps you stay vigilant.
+                </p>
+            </div>
+            <div class="types-grid">
+                <div class="type-card">
+                    <div class="type-number">01</div>
+                    <div class="type-icon">📧</div>
+                    <h3>Email Phishing</h3>
+                    <p>The most common form. Attackers send mass emails impersonating banks, tech companies, or
+                        colleagues, urging recipients to click malicious links or download infected attachments.</p>
+                    <div class="type-danger">
+                        <span class="danger-label">Risk Level:</span>
+                        <div class="danger-bar">
+                            <div class="danger-fill" style="width: 85%"></div>
+                        </div>
+                        <span class="danger-text">High</span>
+                    </div>
+                </div>
+                <div class="type-card">
+                    <div class="type-number">02</div>
+                    <div class="type-icon">🎯</div>
+                    <h3>Spear Phishing</h3>
+                    <p>Targeted attacks directed at specific individuals or organizations. The attacker researches their
+                        victim and crafts personalized messages, making them harder to detect.</p>
+                    <div class="type-danger">
+                        <span class="danger-label">Risk Level:</span>
+                        <div class="danger-bar">
+                            <div class="danger-fill" style="width: 95%"></div>
+                        </div>
+                        <span class="danger-text">Critical</span>
+                    </div>
+                </div>
+                <div class="type-card">
+                    <div class="type-number">03</div>
+                    <div class="type-icon">🐋</div>
+                    <h3>Whaling</h3>
+                    <p>A type of spear phishing that targets high-profile individuals like CEOs or CFOs. These attacks
+                        often involve fake legal subpoenas, executive complaints, or financial requests.</p>
+                    <div class="type-danger">
+                        <span class="danger-label">Risk Level:</span>
+                        <div class="danger-bar">
+                            <div class="danger-fill" style="width: 90%"></div>
+                        </div>
+                        <span class="danger-text">Critical</span>
+                    </div>
+                </div>
+                <div class="type-card">
+                    <div class="type-number">04</div>
+                    <div class="type-icon">📱</div>
+                    <h3>Smishing (SMS)</h3>
+                    <p>Phishing via text messages. Attackers send SMS containing links to fake websites or phone numbers
+                        that connect to scam call centers.</p>
+                    <div class="type-danger">
+                        <span class="danger-label">Risk Level:</span>
+                        <div class="danger-bar">
+                            <div class="danger-fill" style="width: 75%"></div>
+                        </div>
+                        <span class="danger-text">High</span>
+                    </div>
+                </div>
+                <div class="type-card">
+                    <div class="type-number">05</div>
+                    <div class="type-icon">📞</div>
+                    <h3>Vishing (Voice)</h3>
+                    <p>Phone-based phishing where attackers call victims pretending to be from banks, tech support, or
+                        government agencies to extract sensitive information.</p>
+                    <div class="type-danger">
+                        <span class="danger-label">Risk Level:</span>
+                        <div class="danger-bar">
+                            <div class="danger-fill" style="width: 70%"></div>
+                        </div>
+                        <span class="danger-text">Medium</span>
+                    </div>
+                </div>
+                <div class="type-card">
+                    <div class="type-number">06</div>
+                    <div class="type-icon">🌐</div>
+                    <h3>Clone Phishing</h3>
+                    <p>Attackers clone a legitimate email previously delivered, replacing links or attachments with
+                        malicious ones. The email appears to be a resend from the original sender.</p>
+                    <div class="type-danger">
+                        <span class="danger-label">Risk Level:</span>
+                        <div class="danger-bar">
+                            <div class="danger-fill" style="width: 80%"></div>
+                        </div>
+                        <span class="danger-text">High</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ REAL WORLD EXAMPLES ═══════════ -->
+    <section class="section" id="examples">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Learn From History</span>
+                <h2 class="section-title">Real-World <span class="gradient-text">Phishing Examples</span></h2>
+                <p class="section-desc">These actual phishing scenarios show how attackers operate. Can you spot the red
+                    flags?</p>
+            </div>
+
+            <!-- Example 1: The PayPa1 Alert -->
+            <div class="example-showcase">
+                <div class="example-analysis">
+                    <span class="example-label">EXAMPLE 01</span>
+                    <h3>The PayPa1 Alert</h3>
+                    <p class="example-desc">This high-frequency credential harvester targets urgency. By mimicking security notification patterns, it bypasses the user's critical thinking process.</p>
+                    <div class="flag-list">
+                        <div class="flag-item">
+                            <span class="flag-num">01</span>
+                            <div>
+                                <strong>Homograph Attack</strong>
+                                <p>The sender uses a '1' (digit) instead of an 'l' (lowercase L) in the domain 'PayPa1.com'.</p>
+                            </div>
+                        </div>
+                        <div class="flag-item">
+                            <span class="flag-num">02</span>
+                            <div>
+                                <strong>Artificial Urgency</strong>
+                                <p>Threatens account suspension within 24 hours to force immediate action without verification.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="example-card phishing-email">
+                    <div class="terminal-bar">
+                        <div class="terminal-dots">
+                            <span class="dot-sm"></span>
+                            <span class="dot-sm"></span>
+                            <span class="dot-sm"></span>
+                        </div>
+                        <span class="terminal-label">INCOMING.TRANSMISSION.EMI</span>
+                    </div>
+                    <div class="email-fields">
+                        <div class="email-field">
+                            <span class="field-label">From:</span>
+                            <span class="field-value">Security Service &lt;support@paypa1.com&gt;</span>
+                        </div>
+                        <div class="email-field">
+                            <span class="field-label">Subject:</span>
+                            <span class="field-value">Immediate Action Required: Unauthorized access detected</span>
+                        </div>
+                    </div>
+                    <div class="email-content">
+                        <div class="sender-badge">PayPa1</div>
+                        <h4>Your account is on hold.</h4>
+                        <p>We've noticed unusual activity on your account. For your security, we have temporarily suspended all features.</p>
+                        <a href="#" class="fake-button" onclick="return false;">Verify My Account Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Example 2: The Arnazon Portal -->
+            <div class="example-showcase">
+                <div class="example-card fake-website">
+                    <div class="terminal-bar">
+                        <div class="terminal-dots">
+                            <span class="dot-sm"></span>
+                            <span class="dot-sm"></span>
+                            <span class="dot-sm"></span>
+                        </div>
+                        <span class="terminal-label">HTTPS://ARNAZON-PORTAL.NET/ — SECURE</span>
+                    </div>
+                    <div class="fake-login">
+                        <div class="fake-logo-row">
+                            <span class="fake-logo">arnazon</span>
+                            <div class="fake-input-inline">
+                                <div class="input-box-wide"></div>
+                            </div>
+                        </div>
+                        <div class="fake-login-box">
+                            <h3>Sign-In</h3>
+                            <div class="fake-input">
+                                <label>Email or mobile phone</label>
+                                <div class="input-box"></div>
+                            </div>
+                            <div class="fake-submit">Continue</div>
+                            <p class="fake-terms">By continuing, you agree to Arnazon's Conditions of Use.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="example-analysis">
+                    <span class="example-label">EXAMPLE 02</span>
+                    <h3>The Arnazon Portal</h3>
+                    <p class="example-desc">A pixel-perfect landing page designed to capture credentials. It uses 'rn' to visually approximate the letter 'm', creating a deceptive URL at a glance.</p>
+                    <div class="flag-list">
+                        <div class="flag-item">
+                            <span class="flag-num">03</span>
+                            <div>
+                                <strong>Visual Manipulation</strong>
+                                <p>The character pair 'rn' is used to mimic 'm' (Arnazon vs Amazon).</p>
+                            </div>
+                        </div>
+                        <div class="flag-item">
+                            <span class="flag-num">04</span>
+                            <div>
+                                <strong>Generic Entry Point</strong>
+                                <p>Real portals often personalize the greeting if you've visited before. This is a generic fishing net.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ PROTECTION TIPS ═══════════ -->
+    <section class="section section-dark" id="tips">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Protect Yourself</span>
+                <h2 class="section-title">Best Practices to <span class="gradient-text">Stay Safe</span></h2>
+                <p class="section-desc">Follow these essential tips to protect yourself from phishing attacks.</p>
+            </div>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <div class="tip-icon">🔗</div>
+                    <h3>Verify URLs Before Clicking</h3>
+                    <p>Hover over links to preview the destination. Look for misspellings, extra characters, or
+                        suspicious domains. When in doubt, type the URL directly in your browser.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">📧</div>
+                    <h3>Check the Sender</h3>
+                    <p>Verify the sender's email address carefully. Attackers use lookalike domains (e.g.,
+                        support@micr0soft.com). Contact the organization directly if unsure.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">🔐</div>
+                    <h3>Enable 2FA</h3>
+                    <p>Two-Factor Authentication adds an extra layer of security. Even if your password is stolen,
+                        attackers can't access your account without the second factor.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">🚫</div>
+                    <h3>Don't Share Personal Info</h3>
+                    <p>Legitimate organizations never ask for passwords, SSNs, or credit card numbers via email or
+                        phone. Always verify through official channels.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">🔄</div>
+                    <h3>Keep Software Updated</h3>
+                    <p>Update your OS, browser, and antivirus regularly. Security patches fix vulnerabilities that
+                        attackers exploit through phishing links.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">🧠</div>
+                    <h3>Think Before You Click</h3>
+                    <p>If an email creates urgency, fear, or seems too good to be true — pause. Take a moment to verify.
+                        Attackers rely on emotional reactions.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">📢</div>
+                    <h3>Report Suspicious Emails</h3>
+                    <p>Forward phishing attempts to your IT department and the Anti-Phishing Working Group at
+                        reportphishing@apwg.org. Reporting helps protect others.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">🔍</div>
+                    <h3>Use Email Filters</h3>
+                    <p>Enable spam filters and phishing protection in your email client. Most modern email providers
+                        have built-in AI that can detect suspicious messages.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ INTERACTIVE QUIZ ═══════════ -->
+    <section class="section" id="quiz">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Test Your Knowledge</span>
+                <h2 class="section-title">Phishing <span class="gradient-text">Awareness Quiz</span></h2>
+                <p class="section-desc">Can you identify phishing attacks? Take this interactive quiz to test your
+                    knowledge!</p>
+            </div>
+            <div class="quiz-container" id="quizContainer">
+                <!-- Quiz Start Screen -->
+                <div class="quiz-start" id="quizStart">
+                    <div class="quiz-start-icon">🧠</div>
+                    <h3>Ready to Test Your Skills?</h3>
+                    <p>10 questions about phishing attacks, social engineering, and online safety. See how well you can
+                        spot the threats!</p>
+                    <button class="btn btn-primary" id="startQuizBtn" onclick="startQuiz()">Start Quiz</button>
+                </div>
+                <!-- Quiz Questions (rendered by JS) -->
+                <div class="quiz-content" id="quizContent" style="display: none;">
+                    <div class="quiz-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                        <span class="progress-text" id="progressText">Question 1 of 10</span>
+                    </div>
+                    <div class="quiz-question" id="quizQuestion"></div>
+                    <div class="quiz-options" id="quizOptions"></div>
+                    <div class="quiz-feedback" id="quizFeedback"></div>
+                    <button class="btn btn-primary quiz-next" id="nextBtn" onclick="nextQuestion()"
+                        style="display: none;">Next Question →</button>
+                </div>
+                <!-- Quiz Results -->
+                <div class="quiz-results" id="quizResults" style="display: none;">
+                    <div class="results-icon" id="resultsIcon"></div>
+                    <h3 id="resultsTitle"></h3>
+                    <div class="results-score" id="resultsScore"></div>
+                    <p id="resultsMessage"></p>
+                    <div class="results-breakdown" id="resultsBreakdown"></div>
+                    <button class="btn btn-primary" onclick="restartQuiz()">Retake Quiz</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ DEVELOPER SIGNATURE ═══════════ -->
+    <section class="dev-signature">
+        <div class="container">
+            <div class="dev-card">
+                <div class="dev-card-left">
+                    <span class="dev-tag">ENGINEERED BY</span>
+                    <h3 class="dev-name">Faraz Aamir</h3>
+                    <p class="dev-role">Cybersecurity Researcher &amp; Full-Stack Developer</p>
+                    <p class="dev-desc">Building secure, elegant digital experiences — from threat intelligence platforms to pixel-perfect interfaces.</p>
+                </div>
+                <div class="dev-card-right">
+                    <div class="dev-stats">
+                        <div class="dev-stat">
+                            <span class="dev-stat-value">→</span>
+                            <span class="dev-stat-label">VIEW PORTFOLIO</span>
+                        </div>
+                    </div>
+                    <a href="https://farazaamir.vercel.app" target="_blank" class="dev-portfolio-btn">
+                        <span class="dev-btn-text">farazaamir.vercel.app</span>
+                        <span class="dev-btn-arrow">↗</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ FOOTER ═══════════ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-text">PhishGuard</span>
+                    <p>Phishing Awareness Training Module<br>Stay Safe Online</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#what-is">What is Phishing</a>
+                    <a href="#types">Attack Types</a>
+                    <a href="#examples">Real Examples</a>
+                    <a href="#tips">Stay Safe</a>
+                    <a href="#quiz">Take Quiz</a>
+                </div>
+                <div class="footer-resources">
+                    <h4>Resources</h4>
+                    <a href="https://www.phishing.org" target="_blank">Phishing.org</a>
+                    <a href="https://www.cisa.gov/phishing" target="_blank">CISA - Phishing</a>
+                    <a href="https://apwg.org" target="_blank">Anti-Phishing Working Group</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PhishGuard Awareness Training. All rights reserved.</p>
+                <p>Designed &amp; Developed by <a href="https://farazaamir.vercel.app" target="_blank" class="footer-portfolio-link">Faraz Aamir</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
