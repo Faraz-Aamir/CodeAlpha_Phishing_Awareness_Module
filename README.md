@@ -2,7 +2,7 @@
 
 An interactive, web-based cybersecurity training platform designed to educate users about phishing attacks, social engineering tactics, and online safety. Built with a premium dark-mode interface featuring glassmorphism aesthetics, smooth animations, and a fully responsive layout.
 
-### 🔗 [Live Demo](https://faraz-aamir.github.io/Phishing_Awareness_Module/)
+### 🔗 [Live Demo](https://phishguard-awareness.vercel.app/)
 
 ---
 
